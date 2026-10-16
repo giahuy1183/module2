@@ -1,4 +1,4 @@
-package bt;
+package ss1_java_overview;
 
 import java.util.Scanner;
 

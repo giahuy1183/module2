@@ -1,4 +1,4 @@
-package bt;
+package ss1_java_overview;
 
 import java.util.Scanner;
 
@@ -8,6 +8,5 @@ public class LoiChao {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         System.out.println("Chao: " + name);
-
     }
 }

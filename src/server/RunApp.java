@@ -1,8 +1,6 @@
 package server;
 
-import bt.LoiChao;
-
-import java.util.Scanner;
+import ss1_java_overview.LoiChao;
 
 public class RunApp {
     static void main() {
