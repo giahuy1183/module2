@@ -11,6 +11,14 @@ public class Cyclinder extends Circle {
         this.height = height;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
     public String toString(){
         return super.toString()+ " chieu cao: "+height;
     }
