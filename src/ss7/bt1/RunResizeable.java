@@ -1,6 +1,6 @@
 package ss7.bt1;
 
-public class Run {
+public class RunResizeable {
     public static void main(String[] args) {
 
         Resizeable[] shapes = new Resizeable[3];

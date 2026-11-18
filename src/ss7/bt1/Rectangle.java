@@ -1,6 +1,6 @@
 package ss7.bt1;
 
-public class Rectangle extends Shape implements Resizeable{
+public class Rectangle extends Shape implements Resizeable,Colorable {
     private double width = 1.0;
     private double length = 1.0;
 
@@ -54,7 +54,12 @@ public class Rectangle extends Shape implements Resizeable{
 
     @Override
     public void resize(double percent) {
-            width = width * (1 + percent / 100);
-            length = length * (1 + percent / 100);
+        width = width * (1 + percent / 100);
+        length = length * (1 + percent / 100);
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("blue");
     }
 }

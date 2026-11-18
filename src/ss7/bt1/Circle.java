@@ -1,6 +1,6 @@
 package ss7.bt1;
 
-public class Circle extends Shape implements Resizeable {
+public class Circle extends Shape implements Resizeable,Colorable {
     private double radius = 1.0;
 
     public Circle() {
@@ -42,5 +42,10 @@ public class Circle extends Shape implements Resizeable {
     @Override
     public void resize(double percent) {
         radius = radius * (1 + percent / 100);
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Yellow");
     }
 }
